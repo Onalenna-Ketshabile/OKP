@@ -18,7 +18,7 @@ function Pingme({ onClose, setIsSuccessful, setIsSendButtonClicked }) {
       const handleSubmit = (e) => {
           e.preventDefault();
   
-          emailjs.send('service_2vm8l299', 'template_vmx2qxh', {
+          emailjs.send('service_2vm8l29', 'template_vmx2qxh', {
               from_name: email,
              // to_email: 'YOUR_EMAIL_ADDRESS', // Your email address where you want to receive the email
              // subject: 'Subject provided by the user', // You can modify this based on your requirement
