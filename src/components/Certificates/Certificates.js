@@ -19,7 +19,7 @@ function Certificates() {
           My Professional <strong className="purple">Certifications </strong>
         </h1>
         <p style={{ color: "white" }}>
-          I'm commit to learning and mastering the knowledge in my career
+          I'm commited to learning and mastering the knowledge in my career
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           
