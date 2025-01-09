@@ -5,6 +5,9 @@ import Particle from "../Particle";
 
 import internetspeed from "../../Assets/Projects/internetspeed.png";
 import passwordchecker from "../../Assets/Projects/passwordchecker.png";
+import ec2 from "../../Assets/Projects/EC2.png";
+import hosting from "../../Assets/Projects/HOSTING.png";
+
 
 function Projects() {
   return (
@@ -18,6 +21,29 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ec2}
+              isBlog={false}
+              title="AWS EC2 Instance with Secure SSH Access"
+              description="Deploying an AWS EC2 instance with secure SSH access by configuring key pairs and security groups."
+              ghLink="https://github.com/Onalenna-Ketshabile/AWS-EC2-Instance-with-Secure-SSH-Access"
+              // demoLink=""
+            />
+          </Col>       
+            
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hosting}
+              isBlog={false}
+              title="Hosting a Static Website on AWS S3"
+              description="Configuring an S3 bucket for static website hosting, creating custom index and error pages"
+              ghLink="https://github.com/Onalenna-Ketshabile/Hosting-a-Static-Website-on-AWS-S3"
+              // demoLink=""
+            />
+          </Col>
+                
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={internetspeed}
