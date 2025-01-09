@@ -2,6 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CertificateCard from "./CertificateCards";
 import Particle from "../Particle";
+
+import CN from "../../Assets/Certificates/CompTIA Network.png"
+import CS from "../../Assets/Certificates/CompTIA Security.png"
+import AZ500 from "../../Assets/Certificates/AZ500.png";
+import SC200 from "../../Assets/Certificates/SC200.png";
+import SC400 from "../../Assets/Certificates/SC400.png";
+import SC900 from "../../Assets/Certificates/SC900.png";
 import awsCloudPractioner from "../../Assets/Certificates/aws-cloud-practitioner.png";
 import azureFundamentals from "../../Assets/Certificates/Microsoft-Azure-Fundamentals.png";
 import isc2cc from "../../Assets/Certificates/isc2-certified-cybersecurity.png";
@@ -22,6 +29,27 @@ function Certificates() {
           I'm commited to learning and mastering the knowledge in my career
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        
+            <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={CN}
+              isBlog={true}
+              title="CompTIA Network+"
+              description=""
+              ghLink="https://www.credly.com/badges/039df934-e3a9-45f4-abe6-2b65a1d048f0/public_url"
+        
+            />
+          </Col>
+         <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={CS}
+              isBlog={true}
+              title="CompTIA Security+"
+              description=""
+              ghLink="https://www.credly.com/badges/c094bd57-d20e-4628-9d2f-89af1ba4ff10/public_url"
+        
+            />
+          </Col>
           
           <Col md={4} className="project-card">
             <CertificateCard
@@ -33,12 +61,52 @@ function Certificates() {
         
             />
           </Col>
+          
+          <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={AZ500}
+              isBlog={true}
+              title="Microsoft Certified: Azure Security Engineer Associate"
+              description=""
+              ghLink="https://learn.microsoft.com/api/credentials/share/en-us/OnalennaKetshabile-6564/B595D98F61FAEC43?sharingId=1F31CA19633708BB"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={SC400}
+              isBlog={true}
+              title="Microsoft Certified: Information Protection and Compliance Administrator Associate"
+              description=""
+              ghLink="https://learn.microsoft.com/api/credentials/share/en-us/OnalennaKetshabile-6564/B54041A93DAE204E?sharingId=1F31CA19633708BB"
+            />
+          </Col>
+
+            <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={SC200}
+              isBlog={true}
+              title="Microsoft Certified: Security Operations Analyst Associate"
+              description=""
+              ghLink="https://learn.microsoft.com/en-us/users/onalennaketshabile-6564/credentials/be7cd91ff10267c"
+            />
+          </Col>
+
+            <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={SC900}
+              isBlog={true}
+              title=" Microsoft Certified: Security, Compliance, and Identity Fundamentals"
+              description=""
+              ghLink="https://learn.microsoft.com/api/credentials/share/en-us/OnalennaKetshabile-6564/44E8CAE560D507A6?sharingId=1F31CA19633708BB"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <CertificateCard
               imgPath={azureFundamentals}
               isBlog={true}
-              title="Microsoft Certified Azure Fundamentals"
+              title="Microsoft Certified: Azure Fundamentals"
               description=""
               ghLink="https://learn.microsoft.com/api/credentials/share/en-us/OnalennaKetshabile-6564/5B12325E63BF68?sharingId=1F31CA19633708BB"
            
