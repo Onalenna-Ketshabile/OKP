@@ -15,7 +15,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h2>FIND ME ON</h2>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
