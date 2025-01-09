@@ -48,7 +48,7 @@ function Projects() {
             <ProjectCard
               imgPath={internetspeed}
               isBlog={false}
-              title="Internet Speed Test"
+              title="Internet Speed Test (Python)"
               description="A program that measures the upload and download speed (In Megabytes) of the connected internet"
               ghLink="https://github.com/Onalenna-Ketshabile/Internet-Speed-Test-Using-Python"
               // demoLink=""
@@ -59,7 +59,7 @@ function Projects() {
             <ProjectCard
               imgPath={passwordchecker}
               isBlog={false}
-              title="Password Strength Checker"
+              title="Password Strength Checker (Python)"
               description="A program that evaluates the strength of a user's password by ensuring it meets specific criteria"
               ghLink="https://github.com/Onalenna-Ketshabile/Password-Strength-Checker-Using-Python"
               // demoLink=""
