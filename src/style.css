@@ -357,6 +357,7 @@ button:focus {
 
 .home-about-social-links {
   justify-content: center !important;
+  padding-top: 10px !important;
   padding-top: 5px !important;
   display: inline-block !important;
   position: relative !important;
